@@ -1,6 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face
+{
+font-family: Ligature;
+src: url(../LigatureSymbols/LigatureSymbols-2.11.woff);
+}
+
+div.pt-page.pt-page-2
+{
+	overflow: scroll;
+}
+
+
 div.about_head
 {
 	height: 30%;
@@ -16,16 +28,36 @@ div.about_body
 }
 div.about_daiict
 {
-	font-size: 20px;
+	font-size: 17px;
 	float: left;
 	position: relative;
-	width: 30%;
+	width: 24%;
+	margin-left: 5%;
+	box-shadow: 5px 5px 30px #000000;
+}
+p.about_daiict_p
+{
+	margin: 5%;
+	position: relative;
+}
+p.about_daiict_span_daiict
+{
+	margin-left: 20%;
 }
 
 div.about_synapse
 {
-	font-size: 20px;
+	font-size: 17px;
 	float: right;
 	position: relative;
-	width: 70%
+	width: 60%;
+	margin-right: 5%;
+	
 }
+
+img.about_daiict_logo
+{
+	margin: 1px;
+	height:47%;width:99.5%;
+}
+
