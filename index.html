@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synapse'14 DAIICT</title>
+<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+<link rel="shortcut icon" href="../favicon.ico">
+
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/jpreloader.css">
+<!-- Script -->
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="pt-triggers">
+     <p id="iterateEffects" class="pt-touch-button">Next</p>
+</div>
+<!-- /triggers -->
+
+<div id="pt-main" class="pt-perspective"> 
+     <!-- Home Page -->
+     <div class="pt-page pt-page-1">
+          <div id="logo-main" class="logo-main">
+          	<img src="img/1.jpg" style="height:inherit;">
+          </div>
+          <div id="text-main" class="text-main">
+          </div>
+     </div>
+     <!-- About Synapse Page -->
+     <div class="pt-page pt-page-2">
+          <h1><span>Rebirth Event</span><strong>SYNAPSE</strong> 2014</h1>
+     </div>
+     <div class="pt-page pt-page-3">
+          <h1><span>Rebirth Pronites</span><strong>SYNAPSE</strong> 2014</h1>
+     </div>
+     <div class="pt-page pt-page-4">
+          <h1><span>Rebirth YouthRun</span><strong>SYNAPSE</strong> 2014</h1>
+     </div>
+     <div class="pt-page pt-page-5">
+          <h1><span>Rebirth Sponsors</span><strong>Synapse</strong> 2014</h1>
+     </div>
+     <div class="pt-page pt-page-6">
+          <h1><span>A collection of</span><strong>Page</strong> Transitions</h1>
+     </div>
+</div>
+<div class="pt-message">
+     <p>Your browser does not support CSS animations.</p>
+</div>
+
+<!-- Opening Sequence -->
+<section id="jSplash">
+	
+</section>
+<!-- Script --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<!-- Script for next page transition -->
+<script src="js/jquery.dlmenu.js"></script>
+<!-- Script for transition effect --> 
+<script src="js/pagetransitions.js"></script>
+<script src="js/jpreloader.js"></script>
+<script>
+$(document).ready( function() {
+	
+	//calling jPreLoader
+	$('body').jpreLoader({
+		loaderVPos: '70%',
+		autoClose: false,
+		closeBtnText: "Let's Begin!"
+	});
+	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.logo-main
+{
+	position:absolute;
+	width:50%;
+	height:15%;
+	background:#FFF;
+	top:0;
+	left:25%;
+}
+.text-main
+{
+	position:absolute;
+	width:70%;
+	height:25%;
+	background:#FFF;
+	top:30%;
+	left:15%;
+}
