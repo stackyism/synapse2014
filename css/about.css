@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.about_head
+{
+	height: 30%;
+	position: relative;
+	float: top;
+}
+
+div.about_body
+{
+	height:70%;
+	position: relative;
+	float: bottom;
+}
+div.about_daiict
+{
+	font-size: 20px;
+	float: left;
+	position: relative;
+	width: 30%;
+}
+
+div.about_synapse
+{
+	font-size: 20px;
+	float: right;
+	position: relative;
+	width: 70%
+}
